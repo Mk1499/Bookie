@@ -1,0 +1,80 @@
+#mainNav {
+    background-color: rgba(33,37,41,0.9);
+  }
+  
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #28cdf0;
+    font-family: 'Montserrat';
+  }
+  
+  #mainNav .navbar-brand {
+    color: #eee;
+    font-family: 'Montserrat';
+}
+#mainNav .navbar-brand .brandName{
+    margin-bottom: 0;
+      font-size:38px;
+  }
+  #mainNav .navbar-brand .brandSlogan{
+    font-size:13px;
+}
+  /* #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fec503;
+  } */
+  
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    transition: 0.5s;
+  }
+  
+  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #28cdf0;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link + hr{
+    background: #28cdf0;
+    width: 0;
+    height: 1px;
+    transition: 0.5s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover + hr{
+      width:100%;
+  }
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+      border: none;
+      background-color: transparent;
+    }
+    #mainNav .navbar-brand {
+      font-size: 1.75em;
+      transition: all 0.3s;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important;
+    }
+    #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: rgba(33,37,41,0.9);
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.25em;
+      padding: 12px 0;
+    }
+  }
+  

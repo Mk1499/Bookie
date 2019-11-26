@@ -1,0 +1,59 @@
+h4{
+    margin-bottom: 3vh;
+}
+.bookPage{
+    background: #fff;
+    padding: 2vh 2vw;
+}
+.bookPageData {
+    padding-top: 3vh;
+}
+.bookPageDesc{
+    margin-top: 2vh;
+}
+img.bookPageImg {
+    width: 100%;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+
+}
+
+.bookPageAuthorSec{
+    color: #a7a7a7;
+}
+.authorName{
+    color:rgb(233, 45, 107);
+    font-weight: bold;
+}
+.rate i{
+    color:rgb(233, 45, 107);
+}
+.bookPagePrice{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+/* Small Book */
+.smallCard{
+    background-color: #fff;
+    padding: 2vh;
+    margin-right: 2vw;
+}
+.smallBookName{
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 2vh;
+}
+.smallAuthorName{
+    color:#333
+}
+.smallCardImg{
+    width: 100%;
+    height: 25vh;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+
+}
+.smallBookPrice{
+    font-size: 15px;
+    font-weight: bold;
+}

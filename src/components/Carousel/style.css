@@ -1,0 +1,59 @@
+.carousel-item{
+    width:100vw;
+    min-height: 100vh;
+}
+
+.carousel-item.one{
+    background-image:url(https://demo.tokopress.com/bookie/wp-content/uploads/sites/7/2016/06/slider-01.jpg);background-size:cover;
+    background-position:center right;
+    background-repeat:no-repeat;
+} 
+.carousel-item.two{
+    background-image:url(https://demo.tokopress.com/bookie/wp-content/uploads/sites/7/2016/06/slider-03.jpg);background-size:cover;
+    background-position:center right;
+    background-repeat:no-repeat;
+} 
+.carousel-item.three{
+    background-image:url(https://demo.tokopress.com/bookie/wp-content/uploads/sites/7/2016/06/slider-02.jpg);background-size:cover;
+    background-position:center right;
+    background-repeat:no-repeat;
+} 
+
+.carCaption{
+    margin-top: 40vh;
+}
+@media only screen and (max-width: 768px) {
+ .carCaption{
+     text-align: center;
+ }   
+}
+.carCaption .smallCaption{
+    margin: 0;
+    color: #ffffff;
+    font-family: "PT Serif", serif;
+    font-size: 2vw;
+    font-style: italic;
+    line-height: 1;
+}
+.carCaption .bigCaption{
+    margin: 0;
+    padding: 4px 0 18px;
+    color: #ffffff;
+    font-size: 6vw;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: capitalize;
+}
+.carCaption .btn{
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 30px;
+    border-radius: 24px;
+    color: #ffffff;
+    background: #2f2b35;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+}

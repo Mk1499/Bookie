@@ -1,0 +1,25 @@
+body{
+    background: #edf3f4;
+    font-family: "Montserrat" ;
+}
+
+section{
+    margin-top:5vh;
+    margin-bottom: 5vh;
+
+}
+i{
+    margin-right: 0.5vw;
+}
+.container {
+    max-width: 1315px;
+}
+a{
+    color:#212529
+}
+a:hover{
+    text-decoration: none ;
+    color:#28cdf0
+
+
+}
