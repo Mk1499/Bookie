@@ -24,7 +24,7 @@ export default class PopularBooks extends Component {
         <h2 className="sectionHead text-center">Popular Books</h2>
         <div className="bookBtns d-flex justify-content-center viewBtns">
           <button
-            className="btn  bookDetails"
+            className="btn bookDetails"
             onClick={() => this.changeViewType("list")}
           >
             <i className="fa fa-bars" />

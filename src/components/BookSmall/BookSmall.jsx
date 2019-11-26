@@ -9,6 +9,7 @@ export default class BookSmall extends Component {
           width="100%"
           height="80vh"
           className="smallCardImg"
+          alt="card"
         />
         <p className="smallBookName">The Light Between</p >
         <p className="bookPageAuthorSec">

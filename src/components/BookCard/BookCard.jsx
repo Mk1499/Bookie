@@ -23,7 +23,7 @@ export default class BookCard extends Component {
     return (
       <section
         className={`text-center ${
-          this.state.viewType != "grid"
+          this.state.viewType !== "grid"
             ? "d-flex justify-content-center col-md-12"
             : " col-lg-3 col-md-4 "
         }  `}
@@ -47,7 +47,8 @@ export default class BookCard extends Component {
                 this.props.bookInfo.cover ||
                 "https://demo.tokopress.com/bookie/wp-content/uploads/sites/7/2016/06/book-23-250x333.jpg"
               }
-              className={`bookImage ${this.state.viewType!='grid'?'list':null}`}
+              alt={this.props.bookInfo.name}
+              className={`bookImage ${this.state.viewType!=='grid'?'list':null}`}
             />
             <p className="bookName">{this.props.bookInfo.name}</p>
             <p className="bookNote">{this.props.bookInfo.author}</p>
